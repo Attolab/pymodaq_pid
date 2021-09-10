@@ -1,0 +1,12 @@
+[extension-info]
+## To modify by developper(s) of the plugin
+SHORT_EXTENSION_NAME = 'pid'
+package-url = 'https://github.com/CEMES-CNRS/pymodaq_pid'
+description = 'PyMoDAQ Extension to activate PID control'
+
+author = 'Sébastien Weber'
+author-email = 'sebastien.weber@cemes.fr'
+
+[extension-install]
+#packages required for your extension:
+packages-required = ['pymodaq_plugins_pid'] # list of required packages within quotes, eg: ["pyvisa", "numpy==1.19.3"] ...
